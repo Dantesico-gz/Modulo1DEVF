@@ -1,0 +1,21 @@
+body {
+background-image: linear-gradient(to bottom right, aquamarine, yellow);
+}
+
+.manzana-section1{
+    border-color: aquamarine;
+    border: 5px solid;
+}
+
+h1 {
+    color: red;
+}
+
+header {
+    color: bisque;
+}
+
+#chido{
+    text-align: center;
+    text-decoration: line-through;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#encabezado{
+    padding: 10px 15px;
+    border-bottom-color: gray;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    background-color: lightgray;
+}
+
+#texto-articulo {
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: whitesmoke;
+    text-align: justify;
+}
+
+#titulo {
+    margin: 1.5em;
+    font-size: 2.5em;
+}
+
+#autor{
+    margin: 1em;
+    font-style: bold;
+}
+
+#resumen{
+    padding: 1em;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: grey;
+}
+
+#lorem-gigante{
+    margin: auto;
+    font-size: 1.5em;
+}
+
+#pie{
+    background-color: black;
+    padding: 1em;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+@media screen and (min-width: 600px){
+#titulo{
+    font-size: 1.5em;
+}
+}
+
+@media screen and (min-width: 768px){
+   #titulo{
+
+   font-size: 2em;
+   }
+   #lorem-gigante{
+    max-width: 800px;
+    font-size: 2em;
+   }
+}
+
+@media screen and (min-width: 1200px){
+#texto.articulo{
+    max-width: 800px;
+    font-size: 2em;
+}
+}
